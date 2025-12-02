@@ -1,49 +1,66 @@
-# Titanic_Survival_Prediction
-**⭐ Titanic Survival Prediction Using Machine Learning (Logistic Regression)**
+# Titanic_Survival_Prediction #
 
-***🔹 Project Overview***
+## 🚢 Titanic Survival Prediction Using Machine Learning
 
-This project aims to predict the survival chances of passengers aboard the Titanic using machine learning.
-The goal is to analyze passenger characteristics and build a classification model capable of predicting survival outcomes.
+This project predicts the survival of passengers on the Titanic using Machine Learning techniques on the classic Titanic dataset.
 
-***🔹 Data Preprocessing***
+### 🔍 Project Overview
 
-****Performed key preprocessing steps to prepare the dataset for modeling:****
-✔ Handled missing values (Age, Cabin, Embarked)
-✔ Converted categorical columns using Label Encoding / One-Hot Encoding
-✔ Selected relevant features for model input
-✔ Split data into training and testing sets
+Performed data cleaning, EDA, and feature engineering using Pandas and Seaborn.
 
-***🔹 Exploratory Data Analysis (EDA)***
+Built a Logistic Regression model to classify passenger survival.
 
-*****EDA was used to uncover survival patterns based on key variables:*****
-📌 Females had a significantly higher survival rate
-📌 1st Class passengers survived the most
-📌 Younger passengers showed better chances of survival
-📌 Visualizations included bar plots, histograms, heatmaps, and boxplots
+Achieved strong performance using accuracy.
+Analyzed key survival factors such as gender, age, class, and fare.
 
-***🔹 Model Evaluation***
+### 🧠 Skills Demonstrated
 
-The model was evaluated using performance metrics:
+Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
 
-Accuracy Score
+Data Cleaning & Preprocessing
 
-The model showed stable performance and captured major survival patterns effectively.
+Exploratory Data Analysis (EDA)
 
-***🔹 Conclusion***
+Machine Learning (Classification)
 
-The Titanic dataset demonstrated how demographic and travel features influence survival probability.
-The Logistic Regression model provided interpretable insights and reliable predictions.
-Key takeaway: Gender, Class, Age, and Fare were the strongest predictors of survival.
+Model Evaluation (Accuracy)
 
-***🔹 Tools & Technologies Used***
+### 📊 Results
+Metric	Score
+Accuracy	~0.80+
 
-Python
+### 📁 Files Included
 
-Pandas, NumPy
+Titanic Survival Prediction.ipynb — Main Jupyter Notebook
 
-Matplotlib, Seaborn
+titanic.csv — Dataset used for training and testing
 
-Scikit-Learn
+### 💡 Key Insights
 
-Jupyter Notebook
+Female passengers had the highest survival probability
+
+1st class passengers survived more frequently
+
+Younger passengers had higher chances of survival
+
+Fare and family size influenced outcomes
+
+### 📊 Visual Results
+🚢 Survival Count by Gender
+
+<img width="622" height="438" alt="image" src="https://github.com/user-attachments/assets/7a69dc6e-2065-4939-a7aa-79d3dc43410f" />
+
+🎟️ Survival by Passenger Class
+
+<img width="618" height="445" alt="image" src="https://github.com/user-attachments/assets/81ff3bd0-a6bd-4a26-9831-e5b5eaccee1d" />
+
+
+ 📈 Number of Survivers Embarked Wise
+
+<img width="613" height="439" alt="image" src="https://github.com/user-attachments/assets/f84ca662-8815-4dc8-b60b-f950cefc3c42" />
+
+
+### 👨‍💻 Author
+
+Dimpal Gadani 📍 Data Science 
+🔗 LinkedIn | GitHub
